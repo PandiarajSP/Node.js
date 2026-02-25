@@ -6,7 +6,7 @@
 const { MongoClient } = require("mongodb");
 
 async function runGetStarted() {
-    const URI = "mongodb+srv://pandi_node_user:pAnDiNoDeUsEr@cluster0.04qpjnl.mongodb.net/";
+    
     const client = new MongoClient(URI);
 
     try {
